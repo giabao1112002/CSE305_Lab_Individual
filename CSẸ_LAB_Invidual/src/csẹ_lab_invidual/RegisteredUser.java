@@ -2,21 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package csẹ_lab_invidual;
+package rental_management;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.util.*;
-
-/**
- *
- * @author kelyt
- */
 public class RegisteredUser {
+    private List<User> listOfUsers;
 
-    private static List<UserInfomation> listOfUser = new ArrayList<>();
-
-    public void addUser() {
+    public RegisteredUser() {
+        this.listOfUsers = new ArrayList<>();
     }
 
-    public void removeUSer() {
+    public void addUser(User user) {
+        this.listOfUsers.add(user);
     }
+
+    public void removeUser(User user) {
+        this.listOfUsers.remove(user);
+    }
+
 }
