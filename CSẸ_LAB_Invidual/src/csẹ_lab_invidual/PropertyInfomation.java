@@ -4,6 +4,8 @@
  */
 package csẹ_lab_invidual;
 
+import java.util.Scanner;
+
 /**
  *
  * @author DELL
@@ -11,6 +13,10 @@ package csẹ_lab_invidual;
 public class PropertyInfomation {
 
     public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+        int proID;
+        String description;
+        int proOwnerId;
         Property property = new Property(1, "Example Property", 123);
         System.out.println(property);
 
@@ -69,3 +75,4 @@ public class PropertyInfomation {
                     + '}';
         }
     }
+}

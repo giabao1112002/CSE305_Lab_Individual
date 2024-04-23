@@ -17,6 +17,10 @@ public class UserInfomation {
      */
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
+        int userId;
+        String password;
+        String email;
+        String userType;
         User user = new User("12345", "password123", "example@example.com", "admin");
         user.createUser();
         user.resetPassword();
