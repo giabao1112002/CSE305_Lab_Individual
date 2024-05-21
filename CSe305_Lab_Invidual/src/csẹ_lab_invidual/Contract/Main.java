@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // Example for Creating a Permanent Contract
         ContractBuilder permanentBuilder = new PermanentContractBuilder();
         Contract permanentContract = permanentBuilder
             .buildContractID("PC001")
@@ -11,7 +10,6 @@ public class Main {
         
         System.out.println(permanentContract);
 
-        // Example for Creating a Long Term Contract
         ContractBuilder longTermBuilder = new LongTermContractBuilder();
         Contract longTermContract = longTermBuilder
             .buildContractID("LC001")
@@ -22,7 +20,6 @@ public class Main {
         
         System.out.println(longTermContract);
 
-        //Example for  Creating a Short Term Contract
         ContractBuilder shortTermBuilder = new ShortTermContractBuilder();
         Contract shortTermContract = shortTermBuilder
             .buildContractID("SC001")

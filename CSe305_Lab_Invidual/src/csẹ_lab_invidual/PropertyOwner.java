@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import rental_management.Property;
-import rental_management.User;
+
 
 public class PropertyOwner {
     // Attributes
